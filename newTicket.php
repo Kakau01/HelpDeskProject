@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+<style>
+        #back-header{
+            visibility:hidden;
+        }
+        #add-header{
+            visibility:hidden;
+        }
+        
+    </style>
 <body id="bd-ticket">
 
     <?php
