@@ -12,6 +12,13 @@
         #add-header{
             visibility:hidden;
         }
+        #nome-usuario-logado{
+            display:none;
+        }
+        #sair{
+            display:none;
+        }
+        
     </style>
 </head>
 <body>

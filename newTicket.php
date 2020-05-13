@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +13,10 @@
 </head>
 <style>
         #back-header{
-            visibility:hidden;
+            display:none;
         }
         #add-header{
-            visibility:hidden;
+            display:none;
         }
         
     </style>
@@ -21,6 +24,7 @@
 
     <?php
         $titulo = "Create New Ticket";
+        $user = $_SESSION['nome'];
         include_once('./includes/header.php');
 
         

@@ -1,6 +1,6 @@
 <?php
     include_once("connection.php");
-
+    
     //Get the information that the user insert in the input field
     $inputEmail = $_POST['input-email'];
     $inputPass =$_POST['input-pass'];
@@ -15,7 +15,10 @@
 
     //Login Validation
     if(($inputEmail === $email) && ($inputPass === $pass)){
+        $_SESSION['nome'] = $nome;
+        
         header('Location:newTicket.php');
+        
     }else{
         echo "
         <script type ='text/javascript'>

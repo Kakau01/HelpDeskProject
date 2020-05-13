@@ -1,5 +1,5 @@
 *{
-    margin: 0git st;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -8,18 +8,25 @@ body{
     height: 100vh;
 }
 /*Starting Includes*/
+#nome-usuario-logado{
+    padding-left: 10px;
+}
+#sair{
+    padding-right: 10px;
+}
 #bx-header{
     background-color: rgb(145, 19, 145);
     color: rgb(255, 255, 255);
     height: 8vh;
     padding:0px 10px ;
+    
 }
 #back-header{
     font-size: 2.5rem
 }
 #add-header{
-    font-size: 1.8rem
-
+    font-size: 1.8rem;
+    
 }
 #bx-tickets-progress{
     background-color: rgb(238, 237, 237); 
