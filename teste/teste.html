@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estiloteste.css">
+</head>
+
+<body>
+    <header id="bx-hd" class="d-flex align-items-center">
+        <nav class="container-fluid d-flex align-items-center">
+            <div id="hd-esquerda" class="col-3 col-sm-4 col-md-4 col-lg-4 d-flex align-items-center">
+                <a id="icon-back" class="icones-style" href=""><i class="fa fa-arrow-circle-left fa-3x "></i></a>
+                <span id="txt-usuario-logado">Hello Cláudia</span>
+            </div>
+            <div id="hd-meio" class="col-6 col-sm-4 col-md-4 col-lg-4 text-center">
+                <h3 id="txt-titulo">Titulo da Pagina</h3>
+            </div>
+            <div id="hd-direita" class="col-3 col-sm-4 col-md-4 col-lg-4 justify-content-end d-flex align-items-center">
+                <a href="" id="logout">Logout</a>
+                <a id="icon-add" class="icones-style" href=""><i class="fa fa-plus-circle fa-3x "></i></a>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid" id="caixa-principal">
+        <div class="row" id="caixa-sub-principal">
+            <div id="cx-1" class="col-12 col-sm-4 col-md-3 col-lg-3">
+                <div class="row align-items-center" id="caixa-tickets-detalhes">
+                    <div class="col-3 col-sm-12 text-center" id="i1">
+                        <p class="titulo-ticket-detalhe">Ticket ID</p>
+                        <p class="valor-ticket-detalhe">1</p>
+                    </div>
+                    <div class="col-3 col-sm-12 text-center"  id="i2">
+                        <p class="titulo-ticket-detalhe">Created date</p>
+                        <p class="valor-ticket-detalhe">04/18/2016</p>
+                    </div>
+                    <div class="col-3 col-sm-12 text-center"  id="i3">
+                        <p class="titulo-ticket-detalhe">Closed date</p>
+                        <p class="valor-ticket-detalhe">--</p>
+                    </div>
+                    <div class="col-3 col-sm-12 text-center"  id="i4">
+                        <p class="titulo-ticket-detalhe">Created by</p>
+                        <p class="valor-ticket-detalhe">Steven Smith</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cx-2" class="col-12 col-sm-8 col-md-9 col-lg-9">
+                <form id="caixa-conteudo-2" class="d-flex flex-column justify-content-around">
+                    <div class="d-flex flex-column tamanho-texto ">
+                        <label for="">Subject</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div class="d-flex flex-column tamanho-texto ">
+                        <label for="">Description</label>
+                        <input type="text">
+                    </div>
+                    <div class="d-flex flex-column tamanho-texto">
+                        <label for="">Internal Comments</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div class="row tamanho-texto borda">
+                        <p class="col-4 text-left">Ticket Status</p>
+                        <p class="col-4 text-center">InProgress</p>
+                        <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>         
+                    </div>
+                    <div class="row tamanho-texto borda">
+                        <p class="col-4 text-left">Assigned to</p>
+                        <p class="col-4 text-center">None</p>
+                        <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>         
+                    </div>
+                    <div class="row tamanho-texto borda">
+                        <p class="col-4 text-left">Area</p>
+                        <p class="col-4 text-center">IT</p>
+                        <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>         
+                    </div>
+                    <div class="row tamanho-texto borda">
+                        <p class="col-4 text-left">Priority</p>
+                        <p class="col-4 text-center">High</p>
+                        <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>         
+                    </div>
+                    
+                    
+                    
+                    <div class="d-flex flex-column">
+                        <button id="botao">Botao</button>
+                    </div>
+                    
+
+                </form>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="container-fluid" id="bx-td-main">          
+                <div id="bx-tickets-details" class="row">
+                    <div id="bx-1-td" class="col-3 text-center align-self-center">
+                        <p class="td-align-center ">1</p>
+                        <p class="td-align-center ">2</p>
+                    </div>
+                    <div id="bx-2-td" class="col-3 text-center align-self-center">
+                        <p class="td-align-center ">1</p>
+                        <p class="td-align-center ">2</p>
+                    </div>
+                    <div id="bx-3-td"  class="col-3 text-center align-self-center">
+                        <p class="td-align-center ">1</p>
+                        <p class="td-align-center ">2</p>
+                    </div>
+                    <div id="bx-4-td" class="col-3 text-center align-self-center">
+                        <p class="td-align-center ">1</p>
+                        <p class="td-align-center ">2</p>
+                    </div>
+                </div>
+                <div id="bx-form-tickets-details" class="row">
+                    <form id="form-td" class="d-flex flex-column col-12 justify-content-around">
+                        <label>Subject</label>
+                        <input>
+                        <label>Description</label>
+                        <input>
+                        <label>Internal Comments</label>
+                        <input>
+                        <div class="row">
+                            <p class="col-4 text-left">1</p>
+                            <p class="col-4 text-center">2</p>
+                            <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>
+             
+                        </div>
+                        <div class="row">
+                            <p class="col-4 text-left">1</p>
+                            <p class="col-4 text-center">2</p>
+                            <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>
+             
+                        </div>
+                        <div class="row">
+                            <p class="col-4 text-left">1</p>
+                            <p class="col-4 text-center">2</p>
+                            <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>
+             
+                        </div>
+                        <div class="row">
+                            <p class="col-4 text-left">1</p>
+                            <p class="col-4 text-center">2</p>
+                            <a class="col-4 text-right icon-td" href=""><i class="fa fa-angle-right"></i></a>         
+                        </div>
+                        
+                        <button class="">Enviar</button>
+                        
+                        
+                    </form>
+                </div> 
+            
+            
+        </div>
+        -->
+    </main>
+
+
+
+
+</body>
+
+</html>

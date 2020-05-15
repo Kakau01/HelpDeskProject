@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+
+
+/* Starting Header */
+#bx-hd{
+    /* padding: 10px; */
+    background-color: rgb(145, 19, 145);
+    color: #fff;
+    height: 8vh;
+    
+}
+#hd-esquerda{   
+   /* background-color: lightcoral; */
+   padding: 0px;
+}
+#hd-meio{
+    /* background-color: lightgreen; */
+}
+#hd-direita{
+    /* background-color: lightpink; */
+    padding: 0px;
+}
+.icones-style{
+    color: rgb(255, 255, 255);
+}
+.icones-style:hover{
+    color: rgb(73, 71, 71);
+}
+#txt-titulo{
+    font-size: 0.8em;
+    margin: 0px;
+}
+#txt-usuario-logado{
+    font-size: 0.7em;
+    /* display: none; */
+}
+#icon-back{
+    font-size: 0.7em;
+    display: none;
+
+}
+#icon-add{
+    font-size: 0.7em;
+    display: none;
+
+}
+#logout{
+    font-size: 0.7em;
+    color: rgb(255, 255, 255);
+    /* display: none; */
+
+}
+#logout:hover{
+    color: rgb(73, 71, 71);
+    text-decoration: none;
+
+}
+
+/* Finishing Header */
+
+/* Teste */
+#caixa-principal{
+    /* background-color: darkgoldenrod; */
+    height: 92vh;
+}
+#caixa-sub-principal{
+    /* background-color: darkgreen; */
+    height: 92vh;
+}
+#cx-1{
+    background-color: rgb(180, 178, 189);
+    height: 20vh;
+}
+
+#cx-2{
+    /* background-color: darkblue; */
+    height: 72vh;
+}
+#caixa-tickets-detalhes{
+    /* background-color: darksalmon; */
+    height: 20vh;
+}
+#caixa-conteudo-2{
+    /* background-color: rgb(79, 74, 47); */
+    height: 72vh;
+  
+}
+.titulo-ticket-detalhe{
+    font-size: 0.8em;
+}
+.valor-ticket-detalhe{
+    font-size: 0.6em;
+}
+#i1{
+    /* background-color: forestgreen; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    
+}
+
+#i2{
+    /* background-color: greenyellow; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+#i3{
+    /* background-color: indianred; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+#i4{
+    /* background-color: rgb(49, 2, 2); */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.borda{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+}
+#botao{
+    background-color: rgb(109, 16, 29);
+    padding: 3px;
+    color: #fff;
+}
+
+/* Fim Teste */
+
+
+#bx-tickets-details{
+    background-color: chartreuse;
+    height: 12vh;
+}
+#bx-form-tickets-details{
+    background-color: darkcyan;
+    height: 80vh;
+}
+#bx-1-td{
+    background-color: darkgoldenrod;
+}
+#bx-2-td{
+    background-color: darkgreen;
+}
+#bx-3-td{
+    background-color: darkmagenta;
+}
+#bx-4-td{
+    background-color: darkslategrey;
+}
+#bx-form-tickets-details{
+    height: 80vh;
+}
+#form-td{
+    /* background-color: firebrick; */
+}
+.td-align-center {
+    margin: 0px;
+}
+.icon-td{
+    color: black;
+}
+.tamanho-texto{
+    font-size: 0.8em;
+}
+
+
+/* Starting Media Queries */
+
+
+@media (min-width: 576px) { 
+    #bx-hd{
+       /* background-color: brown; */
+        
+    }
+    #txt-titulo{
+        font-size: 1.0em;
+       
+    }
+    #txt-usuario-logado{
+        font-size: 0.8em;
+    }
+    #logout{
+        font-size: 0.8em;
+        
+    }
+    #cx-1{
+        /* background-color: crimson; */
+        height: 92vh;
+    }
+    
+    #cx-2{
+        /* background-color: rgb(139, 118, 0); */
+        height: 92vh;
+    }
+    #caixa-tickets-detalhes{
+        height: 92vh;
+    }
+    #caixa-conteudo-2{
+        height: 92vh;
+    }
+    .titulo-ticket-detalhe{
+        font-size: 1.0em;
+    }
+    .valor-ticket-detalhe{
+        font-size: 0.8em;
+    }
+    .tamanho-texto{
+        font-size: 1.0em;
+    }
+   
+}
+
+@media (min-width: 768px) {
+    #bx-hd{
+        /* background-color: rgb(219, 202, 202); */
+         
+     }
+     #txt-titulo{
+        font-size: 1.2em;
+       
+    }
+    #txt-usuario-logado{
+        font-size: 1.0em;
+    }
+    #logout{
+        font-size: 1.0em;
+        
+    }
+    #bx-td-main{
+        /* background-color: blueviolet; */
+        display: flex;
+          
+    }
+    #bx-tickets-details{
+       /* background-color: brown; */
+       
+    }
+    #bx-form-tickets-details{
+        /* background-color: cornflowerblue; */
+
+    }
+    .tamanho-texto{
+        font-size: 1.1em;
+    }
+   
+
+    
+    
+ }
+
+@media (min-width: 992px) { 
+    #bx-hd{
+        /* background-color: rgb(42, 165, 108); */
+         
+     }
+     
+}
+
+@media (min-width: 1200px) { 
+    #bx-hd{
+        /* background-color: rgb(69, 42, 165); */
+         
+     }
+}
+
+/* Finishing Media Queries */

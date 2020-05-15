@@ -3,6 +3,6 @@
        <h5 id="back-header">&Lt;</h5>
        <span id="nome-usuario-logado">User: <?php echo $user; ?></span>
        <span><?php echo $titulo?></span>
-       <a id="sair" href="sair.php">Sair</a>
+       <a id="sair" href="logout.php">Sair</a>
        <h5 id="add-header">&plus;</h5>
 </header>
